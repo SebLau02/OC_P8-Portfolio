@@ -53,13 +53,13 @@ modules:
       - Détourage des leurres (rembg) et génération de la silhouette
       - "Upload sur Cloudflare R2 puis création du brouillon via l'API du site (jeton Bearer)"
 contributions:
-  - Conception complète : cahier des charges, design system (thème sombre, vert néon), architecture
+  - "Conception complète : cahier des charges, design system (thème sombre, vert néon), architecture"
   - Site, jeux, carnet de pêche et back-office en Next.js / TypeScript
   - Extension Chrome Manifest V3 et script Python local pour automatiser le sourcing des contenus
   - Déploiement sur Cloudflare Workers, stockage R2, déploiement manuel via GitHub Actions
   - Protection anti-abus (limitation de débit WAF, Turnstile), pages légales et crédits, aucune donnée personnelle collectée
 challenges:
-  - Industrialiser la création de contenu : passer d'un lien vidéo à une question publiable en quelques clics
+  - "Industrialiser la création de contenu : passer d'un lien vidéo à une question publiable en quelques clics"
   - Tenir dans les limites de l'offre gratuite Cloudflare (taille du Worker, stockage, bande passante)
   - Faire dialoguer le navigateur, un script local et l'API du site de façon sécurisée (jetons, origines autorisées)
 links:
