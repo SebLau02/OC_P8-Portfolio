@@ -33,6 +33,7 @@ export const projectOrder = [
   "cgi",
   "lfsf",
   "fairplays",
+  "fishbrain",
 ];
 
 /** Projets mis en avant sur l'accueil. */
@@ -55,6 +56,10 @@ export const cardMeta: Record<string, { status: string; tags: string[] }> = {
   fairplays: {
     status: "Sur les stores",
     tags: ["Mobile", "Flutter", "Marketplace"],
+  },
+  fishbrain: {
+    status: "En ligne",
+    tags: ["Projet perso", "Next.js", "Extension Chrome"],
   },
 };
 
